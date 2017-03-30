@@ -14,9 +14,9 @@ class UserTableSeeder extends Seeder
     {
         \DB::table('users')->delete();
         User::create([
-          'name' => 'jean2',
-          'email' => 'jean-norhen@hotmail.com2',
-          'password' => bcrypt('jean2')
+          'name' => 'lamin',
+          'email' => 'lamin@laravel.com',
+          'password' => bcrypt('lamin')
         ]);
     }
 }
